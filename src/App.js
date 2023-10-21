@@ -9,9 +9,9 @@ function App() {
           <img src="url_de_tu_logo.png" alt="Logo de la empresa" />
           <nav>
             <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Cursos</a></li>
-              <li><a href="#">Suscripción</a></li>
+              <li><a href="#">INICIO</a></li>
+              <li><a href="#">CURSOS</a></li>
+              <li><a href="#">SUSCRIPCIÓNn</a></li>
             </ul>
           </nav>
         </div>
@@ -21,6 +21,24 @@ function App() {
           </p>
         </div>
       </header>
+    <div className="footer">
+    <div className="footer-icons">
+      <a href="#"><img src="url_de_facebook_logo.png" alt="Facebook" /></a>
+      <a href="#"><img src="url_de_twitter_logo.png" alt="Twitter" /></a>
+      <a href="#"><img src="url_de_instagram_logo.png" alt="Instagram" /></a>
+    </div>
+    <div className="footer-contact">
+      <h2>Teléfono:</h2>
+        <span>333-393-9360</span>
+    </div>
+    <div>
+        <h2>E-mail</h2>
+        <span>cecmex.oficial@gmail.com</span>
+    </div>
+    <div className="footer-logo">
+      <img src="url_de_tu_logo.png" alt="Logo de la empresa" />
+    </div>
+  </div>
     </div>
   );
 }
