@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
 
+import logo from '../src/assets/img/logo.jpg';
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div className="menu">
-          <img src="url_de_tu_logo.png" alt="Logo de la empresa" />
+          <img src={logo} alt="Logo de la empresa" />
           <nav>
             <ul>
               <li><a href="#">Inicio</a></li>
@@ -22,7 +25,7 @@ function App() {
         </div>
       </header>
     </div>
-  );
-}
+  )
+};
 
 export default App;
