@@ -39,7 +39,7 @@ function App() {
         <span>cecmex.oficial@gmail.com</span>
     </div>
     <div className="footer-logo">
-      <img src="url_de_tu_logo.png" alt="Logo de la empresa" />
+    <img src={logo} alt="Logo de la empresa" />
     </div>
   </div>
     </div>
