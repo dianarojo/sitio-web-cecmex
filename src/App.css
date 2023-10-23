@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: url('https://veigler.com/wp-content/uploads/2020/10/medicina-alternativa-e1620818786712.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .App {
@@ -17,6 +17,7 @@ body {
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
   padding: 5px 450px;
+  font-size: 16px;
 }
 
 .menu img {
@@ -66,4 +67,49 @@ body {
 .legend {
   color: black;
   font-size: 36px; /* Ajusta el tamaño del texto según tus preferencias */
+}
+
+/* Estilos del footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #229a46; /* Cambia el color de fondo a tu elección */
+  color: #ffffff; /* Cambia el color de texto a tu elección */
+  padding: 0%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+/* Estilos de los íconos de redes sociales */
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons a {
+  margin-right: 10px; /* Espacio entre los íconos */
+}
+
+.footer-icons img {
+  max-width: 30px; /* Ajusta el tamaño de los íconos según preferencias */
+}
+
+/* Estilos de la información de contacto */
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-contact span {
+  margin: 5px 0;
+}
+
+/* Estilos del logo de la empresa en el footer */
+.footer-logo img {
+  max-width: 100px; /* Ajusta el tamaño del logo de la empresa según preferencias */
 }
