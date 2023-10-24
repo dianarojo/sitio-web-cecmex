@@ -14,7 +14,7 @@ function App() {
             <ul>
               <li><a href="#">INICIO</a></li>
               <li><a href="#">CURSOS</a></li>
-              <li><a href="#">SUSCRIPCIÓNn</a></li>
+              <li><a href="#">SUSCRIPCIÓN</a></li>
             </ul>
           </nav>
         </div>
