@@ -3,6 +3,11 @@ import './App.css';
 
 import logo from '../src/assets/img/logo.jpg';
 
+import facebook from '../src/assets/img/facebook.svg';
+
+import instagram from '../src/assets/img/instagram.svg';
+
+import twitter from '../src/assets/img/twitter.svg';
 
 function App() {
   return (
@@ -26,9 +31,9 @@ function App() {
       </header>
     <div className="footer">
     <div className="footer-icons">
-      <a href="#"><img src="url_de_facebook_logo.png" alt="Facebook" /></a>
-      <a href="#"><img src="url_de_twitter_logo.png" alt="Twitter" /></a>
-      <a href="#"><img src="url_de_instagram_logo.png" alt="Instagram" /></a>
+      <img src={facebook} alt="facebook" />
+      <img src={instagram} alt="instagram" />
+      <img src={twitter} alt="twitter" />
     </div>
     <div className="footer-contact">
       <h2>Teléfono:</h2>
