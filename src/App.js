@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className="content-container">
           <p className="legend">
-          "SOMOS UNA EMPRESA DEDICADA A LA CAPACITACIÓN EN MEDICINA COMPLEMENTARIA CON PRESENCIA EN TODO MEXICO Y LATAM"
+          "CECMEX SOMOS UNA EMPRESA DEDICADA A LA CAPACITACIÓN EN MEDICINA COMPLEMENTARIA CON PRESENCIA EN TODO MEXICO Y LATAM"
           </p>
         </div>
       </header>
