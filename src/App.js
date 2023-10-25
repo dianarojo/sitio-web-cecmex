@@ -25,15 +25,21 @@ function App() {
         </div>
         <div className="content-container">
           <p className="legend">
-          "CECMEX SOMOS UNA EMPRESA DEDICADA A LA CAPACITACIÓN EN MEDICINA COMPLEMENTARIA CON PRESENCIA EN TODO MEXICO Y LATAM"
+          "SOMOS UNA EMPRESA DEDICADA A LA CAPACITACIÓN EN MEDICINA COMPLEMENTARIA CON PRESENCIA EN TODO MEXICO Y LATAM"
           </p>
         </div>
       </header>
     <div className="footer">
     <div className="footer-icons">
-      <img src={facebook} alt="facebook" />
-      <img src={instagram} alt="instagram" />
-      <img src={twitter} alt="twitter" />
+      <a href="https://www.facebook.com/cecmex.oficial" target="_blank">
+        <img src={facebook} alt="facebook" />
+      </a>
+      <a href="https://www.instagram.com/cec_mex/" target="_blank">
+        <img src={instagram} alt="instagram" />
+      </a>
+      <a href="https://twitter.com/Centrod53669528" target="_blank">
+        <img src={twitter} alt="twitter" />
+      </a>
     </div>
     <div className="footer-contact">
       <h2>Teléfono:</h2>
