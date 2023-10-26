@@ -88,6 +88,7 @@ body {
 .footer-icons {
   display: flex;
   align-items: center;
+  margin-left: 1cm; /* Ajusta el espacio de la izquierda */
 }
 
 .footer-icons a {
