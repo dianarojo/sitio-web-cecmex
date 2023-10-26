@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('https://veigler.com/wp-content/uploads/2020/10/medicina-alternativa-e1620818786712.jpg') no-repeat center center fixed;
+  background:url('../src/assets/img/pagina\ de\ inicio.jpg');
   background-size: cover;
   font-family: 'Inter', sans-serif;
 }
@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
   padding: 5px 450px;
-  font-size: 16px;
+ font-size: 16px;
 }
 
 .menu img {
