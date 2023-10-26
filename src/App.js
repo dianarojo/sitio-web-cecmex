@@ -45,7 +45,7 @@ function App() {
       <h2>Teléfono:</h2>
         <span>333-393-9360</span>
     </div>
-    <div>
+    <div className="footer-contact">
         <h2>E-mail</h2>
         <span>cecmex.oficial@gmail.com</span>
     </div>
