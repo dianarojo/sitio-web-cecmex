@@ -7,7 +7,7 @@ body {
 }
 
 .App {
- 
+
   text-align: center;
 }
 
@@ -81,6 +81,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  height: 110px;
 
 }
 
@@ -115,7 +116,25 @@ body {
   margin: 5px 0;
 }
 
-/* Estilos del logo de la empresa en el footer */
-.footer-logo img {
-  max-width: 100px; /* Ajusta el tamaño del logo de la empresa según preferencias */
+.WhatsAppButton {
+  /* backgroundColor: "#00a4f5", */
+  /* right: "unset",
+  left: "10px", */
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #25d366; /* Color de WhatsApp */
+  /* color: white; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
 }
+
+/* Estilos del logo de la empresa en el footer
+.footer-logo img {
+  max-width: 100px; /* Ajusta el tamaño del logo de la empresa según preferencias
+}*/
+

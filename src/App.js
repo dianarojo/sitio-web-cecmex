@@ -5,6 +5,8 @@ import logo         from '../src/assets/img/logo.jpg';
 import facebook     from '../src/assets/img/facebook.svg';
 import instagram    from '../src/assets/img/instagram.svg';
 import twitter      from '../src/assets/img/twitter.svg';
+import WhatsappButton from "react-whatsapp-button";
+
 
 function App() {
     return (
@@ -26,33 +28,38 @@ function App() {
                     </p>
                 </div>
             </header>
-            <div className="footer">
-                <div className="footer-icons">
-                    <a href="https://www.facebook.com/cecmex.oficial" target="_blank">
-                        <img src={facebook} alt="facebook" />
-                    </a>
-                    <a href="https://www.instagram.com/cec_mex/" target="_blank">
-                        <img src={instagram} alt="instagram" />
-                    </a>
-                    <a href="https://twitter.com/Centrod53669528" target="_blank">
-                        <img src={twitter} alt="twitter" />
-                    </a>
-                </div>
-                <div className="footer-contact">
-                    <h2>Teléfono:</h2>
-                    <span>333-393-9360</span>
-                </div>
+                <div className="footer">
+                    <div className="footer-icons">
+                        <a href="https://www.facebook.com/cecmex.oficial" target="_blank">
+                            <img src={facebook} alt="facebook" />
+                        </a>
+                        <a href="https://www.instagram.com/cec_mex/" target="_blank">
+                            <img src={instagram} alt="instagram" />
+                        </a>
+                        <a href="https://twitter.com/Centrod53669528" target="_blank">
+                            <img src={twitter} alt="twitter" />
+                        </a>
+                    </div>
+                    <div className="footer-contact">
+                        <h2>Teléfono:</h2>
+                        <span>333-393-9360</span>
+                    </div>
 
-                <div className="footer-contact">
-                    <h2>E-mail</h2>
-                    <span>cecmex.oficial@gmail.com</span>
-                </div>
+                    <div className="footer-contact">
+                        <h2>E-mail</h2>
+                        <span>cecmex.oficial@gmail.com</span>
+                    </div>
 
-                <div className="footer-logo">
-                    <img src={logo} alt="Logo de la empresa" />
+                    <div >
+                        <WhatsappButton
+                            countryCode="52"
+                            phoneNumber="3333939360"
+                            className="WhatsAppButton"
+                        />
+                    </div>
                 </div>
             </div>
-        </div>
+        
     )
 };
 
